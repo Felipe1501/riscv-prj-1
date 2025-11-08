@@ -10,4 +10,5 @@ include_directories(include)
 add_executable(riscv_sim
     src/main.cpp
     src/memory.cpp
+    src/bus.cpp
 )

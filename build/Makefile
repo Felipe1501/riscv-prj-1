@@ -129,6 +129,30 @@ riscv_sim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv_sim.dir/build.make CMakeFiles/riscv_sim.dir/build
 .PHONY : riscv_sim/fast
 
+src/bus.o: src/bus.cpp.o
+.PHONY : src/bus.o
+
+# target to build an object file
+src/bus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv_sim.dir/build.make CMakeFiles/riscv_sim.dir/src/bus.cpp.o
+.PHONY : src/bus.cpp.o
+
+src/bus.i: src/bus.cpp.i
+.PHONY : src/bus.i
+
+# target to preprocess a source file
+src/bus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv_sim.dir/build.make CMakeFiles/riscv_sim.dir/src/bus.cpp.i
+.PHONY : src/bus.cpp.i
+
+src/bus.s: src/bus.cpp.s
+.PHONY : src/bus.s
+
+# target to generate assembly for a file
+src/bus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv_sim.dir/build.make CMakeFiles/riscv_sim.dir/src/bus.cpp.s
+.PHONY : src/bus.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... riscv_sim"
+	@echo "... src/bus.o"
+	@echo "... src/bus.i"
+	@echo "... src/bus.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
