@@ -1,3 +1,0 @@
-/c/Users/felip/Downloads/riscv-prj/build/CMakeFiles/riscv_sim.dir
-/c/Users/felip/Downloads/riscv-prj/build/CMakeFiles/edit_cache.dir
-/c/Users/felip/Downloads/riscv-prj/build/CMakeFiles/rebuild_cache.dir

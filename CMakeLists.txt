@@ -12,4 +12,5 @@ add_executable(riscv_sim
     src/memory.cpp
     src/bus.cpp
     src/cpu.cpp
+    src/utils.cpp
 )
